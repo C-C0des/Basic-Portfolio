@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Portfolio</title>
-    <link ="rel" type = 'text/css' href="assets/css/style.css">
+    <link href ="assets/css/style.css" rel ="stylesheet" type="text/css"/>
 </head>
 
 <body>
 
-    <header class = "container">
+    <div id= "entirecontainer"class = "clearfix">
+
+    <header>
+        <div id = "topcontainer" class ="clearfix">
          <div>
-            <a href = "index.html" id = "myname"> Christine Lanlokun</a>
+            <h1 id = "namelogo" class ="clearfix"> Christine Lanlokun</h1>
          </div>
 
          <nav>
@@ -20,33 +23,38 @@
             <a href = "portfolio.html"> Portfolio</a>
             <a href = "contact.html">Contact</a>
          </nav>
+        </div>
     </header>
 
-    <div class = "container">
-        <h1> About Me </h1>
-        <img src = "assets/images/eiffeltwo.jpg" alt ="eiffle" width = "160" height = "160">
-        <p>
+    <div id = "maincontainer" class ="clearfix">
+        <h2> About Me </h2>
+        <hr>
+        <img src = "assets/images/eiffeltwo.jpg" alt ="eiffle" width = "160" height = "160" id ="bio-image">
+        <p class ="body">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, placeat. Quae eum nemo dolore mollitia, 
             esse ratione quam libero dolorem consectetur error voluptatem hic suscipit, fuga dicta dignissimos! Quisque
             vel elementum massa. Proin eget sodales elit, at molestie nisl. Donec id ante ligula. Nulla in amet
             porta eros. Donec vitae sollicitudin tellus, a mollis est. Pellentesque facilisis, risus ut scelerisque tincidunt, 
             lacus erat dictum metus. 
         </p>
-        <p>
+        <p class ="body">
             Maecenas hendrerit venenatis lacus pharetra finibus. Fusce sit amet hendrerit augue. Pellentesque venenatis 
             venenatis dolor sed feugiat. Pellentesque vel varius eros. Mauris suscipit sed. Phasellus at egestas.
 
         </p>
-        <p>
+        <p class ="body">
             Praesent ante neque, fringilla et efficitur vitae, condimentum maximus ex. Donec at purus in est malesuada accumsan.
             Ut vehicula a lorem et ultricies. Aliquam a magna lobortis, fermentum dolor eu, mollis neque.
         </p>
         
     </div>
+          <div id ="thefooter">
+               <footer>
+                   <p>Copyright &copy; </p>
+              </footer>
+         </div>
 
-    <footer>
-        <p>Copyright &copy; </p>
-    </footer>
+    </div>
 
 
 </body>
