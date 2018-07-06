@@ -18,11 +18,13 @@ body{
     position:relative;
 }
 
+
 .clearfix::after{
     content:"";
     display:block;
     clear:both;   
 }
+
 
 header{
     background:#ffffff;
@@ -40,8 +42,8 @@ header{
 #topcontainer{
     width:960px;
     margin:0 auto;
-
 }
+
 
 #namelogo{
     color:#ffffff;
@@ -70,13 +72,16 @@ a{
     margin-bottom:5px;
 }
 
+
 #aboutlink{
     padding-right:20px;
 }
 
+
 #portlink{
     padding-right:20px;
 }
+
 
 #contactlink{
     padding-left:2px;
@@ -127,11 +132,13 @@ hr{
     margin-bottom:119px;
 }
 
+
 .body{
     line-height:150%;
     padding-left:28px;
     padding-right:28px;
 }
+
 
 footer{
     background:#666666;
@@ -141,5 +148,10 @@ footer{
     position:static;
     bottom:0;
     width:100%;
-    height:60px;   /* Height of the footer */
+    height:60px;   
+}
+
+
+.footertext{
+    padding-top:15px;
 }
