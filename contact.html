@@ -4,55 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Basic Portfolio</title>
+    <link rel = "stylesheet" media = "(max-width = 960px)" href = "assets/css/style.css">
     <link href ="assets/css/style.css" rel ="stylesheet" type="text/css"/>
 </head>
 
 <body>
-     <!--Header Starts-->
-     <header>
-         <div class = "wrap">
-             <a href = "index.html" id = "namelogo"> Christine Lanlokun </a>
-             <nav>
-                 <ul>
-                      <li> <a href = "index.html">About</a></li>
-                      <li><a href = "portfolio.html">Portfolio</a></li>
-                      <li><a href = "contact.html">Contact</a></li>
-                 </ul>
-             </nav>   
+    <header id = "masthead">
+        <div class="container">
+           <a href="index.html" id="logo">Christine Lanlokun</a>
+           <nav>
+             <a href="index.html">About</a>
+             <a href="portfolio.html">Portfolio</a>
+             <a href="contact.html">Contact</a>
+           </nav>
          </div>
      </header>
-     <!--Header Ends-->
-
-
-   
-
-     <div class = "wrap" id = "maincontentcontainer">
-          <h2> Contact </h2>
-         <hr>
-         <form id = "contact">
-             <label for ="name">Name</label>
-             <br>
-             <input type = "text" id = "name" placeholder="John Smith"required ="required">
-             <br>
-             <label for ="email">Email</label>
-             <br>
-             <input type = "email" id = "email" placeholder ="example@gmail.com" required = "required">
-             <br>
-             <label for ="message">Message</label>
-             <br>
-             <input type = "textarea" id = "Message">
-             <br>
-             <br>
-             <br>
-             <input type = "submit">
-             </fieldset>
-             </form>
-         </div>
-       
+     
+     <div class="container">
+         <div id = "mainsection">
+         <h2>Contact</h2>
+         <form action="#">
+                <label for="name">Name </label>
+                <input type="text" id="name"placeholder="John Smith" required = "required">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email"placeholder="example@gmail.com" required = "required">
+                <br>
+                <label for="message">Message</label>
+                <textarea id="message" required ="required"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+     </div>
+     
          <footer>
-             <p class ="footertext">Copyright &copy; </p>
-        </footer>
+             <div class="container">
+                  Copyright &copy;
+             </div>
+         </footer>	
+         
+
 
 </body>
 </html>

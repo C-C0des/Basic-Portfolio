@@ -4,66 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Basic Portfolio</title>
+    <link rel = "stylesheet" media = "(max-width = 960px)" href = "assets/css/style.css">
     <link href ="assets/css/style.css" rel ="stylesheet" type="text/css"/>
 </head>
 
 <body>
+    <header id = "masthead">
+        <div class="container">
+           <a href="index.html" id="logo">Christine Lanlokun</a>
+           <nav>
+             <a href="index.html">About</a>
+             <a href="portfolio.html">Portfolio</a>
+             <a href="contact.html">Contact</a>
+           </nav>
+         </div>
+     </header>
+     
+     <div class="container">
+         <div id = "mainsection">
+         <h2>Portfolio</h2>
 
-    <!--Header Starts-->
-    <header>
-            <div class = "wrap">
-                <a href = "index.html" id = "namelogo"> Christine Lanlokun </a>
-                <nav>
-                    <ul>
-                         <li> <a href = "index.html">About</a></li>
-                         <li><a href = "portfolio.html">Portfolio</a></li>
-                         <li><a href = "contact.html">Contact</a></li>
-                    </ul>
-                </nav>   
-            </div>
-        </header>
-        <!--Header Ends-->
+              <div id = "hangman">
+                 <div class ="game">Hangman</div>
+             </div>
+ 
+             <div  id = "rpg">
+                <div class = "game">RPG Game</div>
+             </div>
 
-        <div class = "wrap" id = "maincontentcontainer">
-             <h2> Portfolio</h2>
-             <hr>
+             <div id = "trivia">
+                <div class = "game"> Trivia </div>
+             </div>
 
-                <div id ="hangman">
-                    <div class = "game">
-                    <h3>Hangman</h3>
-                    </div>
-                </div>
+             <div id = "rutgers">
+               <div class ="game">Rutgers Widget</div>
+             </div>
 
-                <div id = "rpg" class = "clearfix">
-                    <div class = "game" >
-                    <h3>RPG Game</h3>
-                    </div>
-                </div>
+             <div id = "rock">
+                <div class = "game">Rock Paper Scissors</div>
+             </div>
+         </div>
+     </div>
+     
+         <footer>
+             <div class="container">
+                  Copyright &copy;
+             </div>
+         </footer>	
+         
 
-                <div id = "trivia" class = "clearfix">  
-                    <div class = "game">
-                    <h3>Trivia Game</h3>
-                    </div>
-                </div>
-
-                <div id = "rutgers" class = "clearfix">
-                    <div class = "game"> 
-                    <h3> Rutgers Info Widget</h3>
-                    </div>
-                </div>
-
-                <div id = "rock" class = "clearfix">
-                    <div class = "game">
-                   <h3> Rock Paper Scissors</h3>
-                   </div>
-                </div>
-        
-        </div>
-       
-               <footer>
-                   <p class ="footertext">Copyright &copy; </p>
-                </footer>
 
 </body>
 </html>
