@@ -1,6 +1,6 @@
 # Basic Portfolio
 
-## Week 1 (Recommended) Assignment 
+## Recommended Assignment 
 
 Building a template for a professional portfolio site using HTML/CSS. 
 
