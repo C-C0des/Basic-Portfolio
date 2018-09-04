@@ -131,8 +131,8 @@ footer {
 }
 
 
-#hangman {
-    background:url(../images/hangman1.jpg);
+#hangman{
+    background:url(../images/hangman.jpg);
     background-repeat: no-repeat;
     margin: 25px 35px 25px 40px; 
     width: 400px;
@@ -142,19 +142,8 @@ footer {
 }
     
 
-#rpg {
-    background:url(../images/rpg1.jpg);
-    background-repeat: no-repeat;
-    margin: 25px 35px 25px 40px; 
-    width: 400px;
-    height: 200px;
-    display: inline-block;
-    position: relative;
-}
-   
-
 #trivia{
-    background:url(../images/trivia1.png);
+    background:url(../images/trivia.jpg);
     background-repeat: no-repeat;
     margin: 25px 35px 25px 40px; 
     width: 400px;
@@ -162,22 +151,9 @@ footer {
     display: inline-block;
     position: relative;
 }
-
-
-#rutgers {
-    background:url(../images/iphonewidget.jpg);
-    background-repeat: no-repeat;
-    margin: 25px 35px 25px 40px; 
-    width: 400px;
-    height: 200px;
-    display: inline-block;
-    position: relative;
-}
-
-
 
 #rock{
-    background:url(../images/rockps.jpg);
+    background:url(../images/rps.jpg);
     background-repeat: no-repeat;
     margin: 25px 35px 25px 40px; 
     width: 400px;
